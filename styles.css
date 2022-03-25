@@ -1,10 +1,9 @@
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 header {
@@ -16,7 +15,6 @@ header {
 }
 
 .hero {
-  height: 400px;
   padding-left: 250px;
   padding-right: 250px;
   padding-bottom: 35px;
@@ -166,13 +164,14 @@ h2 {
 .button2 {
   font-size: 14px;
   font-weight: bold;
-  background-color: white;
-  color: #3882F6;
+  background-color: #3882F6;
+  color: white;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  border-color:white;
   
 
 }
