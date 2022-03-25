@@ -34,6 +34,7 @@ a {
   text-decoration: none;
 }
 
+
 .logo {
   font-size: 24px;
   color: #F9FAF8;
@@ -55,7 +56,6 @@ a {
 
 .left-hero {
   padding-right: 400px;
-  
 }
 
 a, .sec-text {
@@ -145,18 +145,40 @@ h2 {
   margin-right: 250px;
   margin-top: 50px;
   margin-bottom: 50px;
-  display: flex;
+  display:flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-.action-texts, .button2 {
+.action-texts {
   color: white;
 }
 
+.action {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .button2 {
-  background-color: #3882F6;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  color: #3882F6;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+
+footer {
+  font-size: small;
+  color: white;
+  text-align: center;
 }
